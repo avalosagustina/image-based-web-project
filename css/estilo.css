@@ -6,28 +6,30 @@ body{
 
 .hero{
     background-color: #ffffff;
-    margin: 150px 80px;
+    margin: 200px 90px;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .servicios{
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 50px 30px;
 }
 div{
     flex: 0 0 calc(33.33% - 20px);
+    margin: 10px 5px;
 }
 h1{
     text-align: center;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 750;
     font-family: Arial, Helvetica, sans-serif;
     color: #4168e1;
+    padding: 20px 0px 10px 0px;
 }
 .pregunta{
-    font-size: 30px;
+    font-size: 27px;
     font-family: sans-serif;
     font-weight: 800;
     text-align: center;
@@ -37,7 +39,7 @@ h1{
 }
 
 .respuesta{
-    font-size: 13px;
+    font-size: 12px;
     font-family: sans-serif;
     text-align: center;
     letter-spacing: 0,95px;
@@ -47,9 +49,10 @@ h1{
 
 .icono{
     background-color: #4168e1;
-    border-radius: 50px;
-    width: 60px;
-    height: 60px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .subtitulo{
@@ -59,8 +62,7 @@ h1{
     letter-spacing: -0,5px;
 }
 .descripcion{
-    font-size: 14px;
+    font-size: 13px;
     font-family: sans-serif;
     color: #4d4c4c;
-
 }
