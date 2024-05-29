@@ -68,3 +68,9 @@ div{
     background-color: #ffffff;
     margin: 20px;
 }
+.servicio{
+    transition: 0,2s;
+}
+.servicio:hover{
+    transform: scale(1.2);
+}
