@@ -10,5 +10,8 @@ body{
 
 .servicios{
     display: flex;
-    justify-content: space-around
+    flex-wrap: wrap;
+}
+div{
+    flex: 0 0 calc(33.33% - 20px);
 }
