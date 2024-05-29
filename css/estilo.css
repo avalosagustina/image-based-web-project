@@ -1,0 +1,14 @@
+body{
+    background-color: #ced6f0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    background-color: #ffffff;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-around
+}
