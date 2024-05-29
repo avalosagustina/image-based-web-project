@@ -59,10 +59,9 @@ h1{
 }
 .icono{
     border-radius: 50%;
-    background-color: #4269e2;
     padding: 10px;
     width: 18px;
-    color: red;
+    background-color: #4269e2;
 }
 div{
     padding: 20px;
