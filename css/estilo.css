@@ -1,68 +1,68 @@
 body{
-    background-color: #ced6f0;
+    background-color:#ced6f0;
+    align-items: center;
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .hero{
-    background-color: #ffffff;
-    margin: 200px 90px;
-    padding: 50px;
+    width: 100%;
+    background-color:#ffffff ;
     border-radius: 15px;
 }
-
 .servicios{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 30px;
-}
-div{
-    flex: 0 0 calc(33.33% - 20px);
-    margin: 10px 5px;
-}
-h1{
-    text-align: center;
-    font-size: 13px;
-    font-weight: 750;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4168e1;
-    padding: 20px 0px 10px 0px;
-}
-.pregunta{
-    font-size: 27px;
-    font-family: sans-serif;
-    font-weight: 800;
-    text-align: center;
-    color: #122158;
-    line-height: 5px;
-    word-spacing: -5px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
 }
 
-.respuesta{
+h1{
     font-size: 12px;
     font-family: sans-serif;
     text-align: center;
-    letter-spacing: 0,95px;
-    line-height: 25px;
-    color: #4d4c4c;
+    color:#4269e2;
+    padding: 80px 0px 0px 0px;
+    font-weight: 900;
+}
+.pregunta{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #222a60;
+    font-weight: 800;
+    letter-spacing: 0,3px;
 }
 
-.icono{
-    background-color: #4168e1;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    padding: 10px;
+.respuesta{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #777676;
 }
 
 .subtitulo{
-    font-size: 15px;
+    font-size: 16px;
     font-family: sans-serif;
-    color: #122158;
-    letter-spacing: -0,5px;
+    color: #222a60;
 }
 .descripcion{
-    font-size: 13px;
+    font-size: 14px;
     font-family: sans-serif;
-    color: #4d4c4c;
+    color: #777676;
+    text-align: justify;
+}
+.icono{
+    border-radius: 50%;
+    background-color: #4269e2;
+    padding: 10px;
+    width: 15px;
+    fill: white;
+}
+div{
+    padding: 10px;
 }
