@@ -3,7 +3,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 100px;
 }
 
 .hero{
@@ -55,7 +55,7 @@ h1{
     font-size: 14px;
     font-family: sans-serif;
     color: #777676;
-    text-align: justify;
+    text-align: left;
 }
 .icono{
     border-radius: 50%;
