@@ -70,6 +70,7 @@ div{
 }
 .servicio{
     transition: 0,2s;
+    margin: 0px;
 }
 .servicio:hover{
     transform: scale(1.2);
