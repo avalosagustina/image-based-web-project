@@ -7,4 +7,4 @@ Lista de Servicios: Una lista de los servicios ofrecidos por la entidad, present
 
 Descripciones de Servicios: Breves descripciones de cada servicio.
 
-Se adjunta el link para ver dicha section realizada
+Se adjunta el link para ver dicha section realizada https://avalosagustina.github.io/image-based-web-project/
